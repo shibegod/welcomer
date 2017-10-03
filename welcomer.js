@@ -6,7 +6,7 @@ bot.on("ready", () => {
 });
 
 bot.on('guildMemberAdd',  (member) => {
-    member.guild.channels.get("343037231734456322").send("Hey dumbass welcome to this toxic cancerous gay fucking discord server hope you don't have fun bitch. Eat a dick " + member);
+    member.guild.channels.get("343037231734456322").send("Welcome to this discord server! Hope you have fun :) " + member);
     });
     
     bot.on('guildMemberRemove', (member) => {
