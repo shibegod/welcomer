@@ -1,1 +1,1 @@
-worker: node welcomer.js
+woker: node welcomer.js
