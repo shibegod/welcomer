@@ -1,0 +1,13 @@
+{
+  "name": "welcomer",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "welcomer.js",
+  "scripts": {
+    "start": "node welcomer.js"
+  },
+"dependencies": {
+"discord.js": "^11.2.1",
+"request": "2.81.0"
+}
+}
