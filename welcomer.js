@@ -12,7 +12,7 @@ bot.on('guildMemberAdd',  (member) => {
     });
 
     bot.on('guildMemberRemove', (member) => {
-        member.guild.channels.get("363514912531677197").send("Good bye :() " + member);
+        member.guild.channels.get("363514912531677197").send("Good bye fren " + member);
     });
 
     
