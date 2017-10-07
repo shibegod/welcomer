@@ -10,6 +10,11 @@ bot.on("ready", () => {
 bot.on('guildMemberAdd',  (member) => {
     member.guild.channels.get("363514912531677197").send("Welcome to this discord server! Hope you have fun :) " + member);
     });
+
+    bot.on('guildMemberRemove', (member) => {
+        member.guild.channels.get("363514912531677197").send("Good bye :() " + member);
+    });
+
     
     
  bot.login(process.env.BOT_TOKEN); 
